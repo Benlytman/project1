@@ -1,0 +1,32 @@
+body{
+background:white url("t2.jpg")0 0 no-repeat;
+background-size:cover;
+
+}
+input{
+border-radius: 5px;
+padding: 5px;
+width: 200px;
+}
+button{border-radius: 5px;
+padding: 5px;
+background-color:blue;
+color:white;}
+label{font-size: 20px;
+color:rgb(14, 132, 172);
+
+}
+form{
+background-color:rgba(255, 255, 255, 0.8);
+width: 70ch;   
+padding: 20px;
+margin: 100px auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 50px;
+height: 400px;
+}
+
+    
