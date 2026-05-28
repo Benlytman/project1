@@ -10,6 +10,7 @@ width: 200px;
 }
 button{border-radius: 5px;
 padding: 5px;
+width:40px;
 background-color:blue;
 color:white;}
 label{font-size: 20px;
@@ -18,7 +19,7 @@ color:rgb(14, 132, 172);
 }
 form{
 background-color:rgba(255, 255, 255, 0.8);
-width: 70ch;   
+width: 40ch;   
 padding: 20px;
 margin: 100px auto;
 display: flex;

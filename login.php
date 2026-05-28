@@ -10,28 +10,30 @@ if (!$conn) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="login.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
     <title>login</title>
-    
+  <link rel="stylesheet" href="login.css">   
 </head>
 <body>
     <form method="post" action="login.php">
-       <div class="container">
+      
     <h2>log in</h2> 
-    <label>email:</label>
-    <input type="text" name="email" placeholder="enter your email" required><br>
-     <label>password:</label>
-    <input type="password" name="password" placeholder="enter your password" required><br>
-    <button type="submit" value="log in" name="login">log in</button>
-    <p>don't have an account? <a href="regster.php">register here</a></p>
-   </div>
+    <label>email:</label><br>
+    <input type="text" name="email" placeholder="enter your email" required></br>
+     <label>password:</label><br>
+    <input type="password" name="password" placeholder="enter your password" required></br>
+    <button type="submit" value="log in" name="login">log in</button><br>
+    <p><a href="">forgot password</a></p><br>
+    <p>don't have an account? <a href="registration.php">register here</a></p>
+   
     </form> 
       
 </body>
 </html>
+
 
 
 <?php
